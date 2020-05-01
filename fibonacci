@@ -1,0 +1,8 @@
+fib =  [0 , 1]
+n = int(input("how much:" ))
+n -= 2;
+i = 1;
+for x in range (n):
+    fib.append(fib[i] + fib[i-1])
+    i += 1
+print (fib)
