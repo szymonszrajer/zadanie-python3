@@ -1,5 +1,5 @@
 fib =  [0 , 1]
-n = int(input("how much:" ))
+n = int(input("how many:" ))
 n -= 2;
 i = 1;
 for x in range (n):
